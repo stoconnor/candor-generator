@@ -65,6 +65,7 @@
 </template>
 
 <script>
+import 'vue-select/dist/vue-select.css'
 export default {
   name: 'Generator',
   data() {
