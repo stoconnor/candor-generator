@@ -11,8 +11,7 @@
     /></a>
     <div class="ml-3 inline-flex rounded-md shadow items-center">
       <a
-        href=""
-        v-on:click.prevent="doCopy"
+        href="https://github.com/stoconnor/candor-generator"
         class="text-xl inline-flex items-center justify-center px-2 py-1 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-indigo-50"
         ><svg
           class="h-12 w-12 pr-2 text-black"
