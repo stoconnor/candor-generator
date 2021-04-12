@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/emoji', '@/assets/css/vue-select'],
+  css: ['@/assets/css/emoji'],
   /*
    ** Plugins to load before mounting the App
    */

@@ -130,6 +130,7 @@ export default {
 </script>
 
 <style>
+@import 'vue-select/dist/vue-select.css';
 #app {
   text-align: center;
   color: #2c3e50;

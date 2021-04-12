@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white flex flex-col sm:flex-row justify-center gap-10 items-center"
+    class="bg-white flex flex-col sm:flex-row justify-center gap-10 items-center py-8"
   >
     <a href="https://www.buymeacoffee.com/soconnor" target="_blank"
       ><img
