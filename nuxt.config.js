@@ -16,7 +16,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'href="https://unpkg.com/vue-select@latest/dist/vue-select.css' }
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/vue-select/3.11.2/vue-select.css' }
     ]
   },
   /*
