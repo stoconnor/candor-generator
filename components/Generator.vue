@@ -16,13 +16,26 @@
       <div class="flex-none"><p>If you could ...</p></div>
 
       <div class="flex-none">
-        <v-select taggable push-tags v-model="verb_text" :options="verb" />
+        <v-select
+          class="flex-auto"
+          taggable
+          push-tags
+          v-model="verb_text"
+          :options="verb"
+        />
       </div>
       <div class="flex-none">
-        <v-select taggable push-tags v-model="action_text" :options="action" />
+        <v-select
+          class="flex-auto"
+          taggable
+          push-tags
+          v-model="action_text"
+          :options="action"
+        />
       </div>
       <div>
         <v-select
+          class="flex-auto"
           taggable
           push-tags
           v-model="improvement_text"
@@ -130,17 +143,8 @@ export default {
 </script>
 
 <style>
-@import 'vue-select/dist/vue-select.css';
-#app {
-  text-align: center;
-  color: #2c3e50;
-}
-.black-active {
-  background-color: #00e5ee;
-  color: white;
-  height: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 0;
+.vs__dropdown-menu {
+  top: auto;
+  width: auto;
 }
 </style>
