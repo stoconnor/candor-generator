@@ -12,7 +12,9 @@ export default {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
-      }
+      },
+      { hid: 'og:title', name: 'og:title', content: 'Candor Generator - Generate Positive, Actionable Candor' },
+      { hid: 'og:image', name: 'og:image', content: '/assets/img/projectScreen.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
