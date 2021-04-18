@@ -22,7 +22,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.BASE_URL + ogImage,
+          content: ogImage,
         },
       ],
     }
