@@ -9,12 +9,24 @@
 <script>
 import TheHeader from '@/components/TheHeader.vue'
 import TheFooter from '@/components/TheFooter.vue'
+import ogImage from '@/assets/img/projectScreen.jpg'
 
 export default {
   components: {
     'the-header': TheHeader,
-    'the-footer': TheFooter
-  }
+    'the-footer': TheFooter,
+  },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.BASE_URL + ogImage,
+        },
+      ],
+    }
+  },
 }
 </script>
 
