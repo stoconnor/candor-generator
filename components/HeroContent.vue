@@ -15,11 +15,7 @@
       </div>
       <!--Right Col-->
       <div class="flex flex-col w-5/12 py-6">
-        <img
-          class="w-3/5 z-30"
-          src="~/assets/img/remote-meeting.svg?inline"
-          alt
-        />
+        <img class="w-3/5 z-30" src="~/assets/img/remote-meeting.svg" alt />
       </div>
     </div>
   </div>

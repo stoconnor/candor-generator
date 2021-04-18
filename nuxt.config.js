@@ -26,7 +26,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/emoji'],
+  css: ['@/assets/css/emoji', 'vue-select/dist/vue-select.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -44,7 +44,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-svg-loader'],
+  modules: ['@nuxtjs/svg'],
   purgeCSS: {
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
@@ -57,11 +57,7 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-      loaders: {
-        file: {
-          esModule: false
-        }
-      }
+
     }
   }
 }
